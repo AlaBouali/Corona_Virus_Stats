@@ -54,7 +54,7 @@ countries=[]
 
 updating=False
 
-class refresher(threading.Thread):#this function updates the "results.csv" file
+class refresher(threading.Thread):#this class updates the results file
  def run(self):
   global updating
   if updating==False:
